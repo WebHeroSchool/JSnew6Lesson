@@ -32,15 +32,6 @@ buildQuiz = questionArray => {
 
 buildQuiz(questionArray);
 
-/*showAnswers =questionArray => {
-  questionArray.forEach((item) => {
-    let answer = document.getElementById('answer');
-    answer.innerHTML+= ' ' + item.correctAnswer + ' ' + item.wrongAnswer
-  })
-}
-
-showAnswers(questionArray);*/
-
 function showResults(){
   questionArray.forEach((item) =>{
     if(item.correctAnswer === 'Yes'){
